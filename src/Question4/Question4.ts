@@ -1,19 +1,19 @@
-const getFinalString = (str: string): string => {
-  let result = ''
-  let hashCounter = 0;
+// const getFinalString = (str: string): string => {
+//   let result = ''
+//   let hashCounter = 0;
   
-  for(let i = str.length -1; i >= 0 ; i--) {
-    if(str[i] === '#') {
-      hashCounter++
-    } else if(hashCounter === 0) {
-      result += str[i]
-    } else if(hashCounter > 0) {
-      hashCounter--
-    }
-  }
+//   for(let i = str.length -1; i >= 0 ; i--) {
+//     if(str[i] === '#') {
+//       hashCounter++
+//     } else if(hashCounter === 0) {
+//       result += str[i]
+//     } else if(hashCounter > 0) {
+//       hashCounter--
+//     }
+//   }
   
-  return result
-}
+//   return result
+// }
 
 // export const areTypedOutStringsEqual = (str1: string, str2: string): boolean => {
 //   const finalStr1 = getFinalString(str1)
