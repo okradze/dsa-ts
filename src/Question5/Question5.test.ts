@@ -1,6 +1,6 @@
 import { lengthOfLongestSubstring } from './Question5'
 
-describe('Typed Out Strings', () => {
+describe('Length of longest substring', () => {
   test('returns correct length', () => {
     expect(lengthOfLongestSubstring('abccabb')).toEqual(3)
     expect(lengthOfLongestSubstring('a')).toEqual(1)
