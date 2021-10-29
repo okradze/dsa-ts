@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll",
-    "start": "ts-node ./src/Question1/Question1.ts"
+    "start": "ts-node ./src/LinkedList/ReverseLinkedList.ts"
   },
   "keywords": [],
   "author": "",
